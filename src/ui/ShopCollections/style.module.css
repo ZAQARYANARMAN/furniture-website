@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    padding: 120px 7%;
+}
+
+.text {
+    font-size: 0.9rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 15px 0 25px 0;
+}
+
+.collectionsList {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (auto, 322px);
+    gap: 1%;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        padding: 80px 4%;
+    }
+
+    .collectionsList {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        padding: 40px 7%;
+    }
+
+    .collectionsList {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto, 1px);
+        gap: 3%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 40px 3%;
+    }
+}

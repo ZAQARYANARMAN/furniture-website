@@ -1,0 +1,14 @@
+.button {
+    color: white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.011);
+    backdrop-filter: blur(2px);
+    font-size: 0.9rem;
+    font-weight: 100;
+    border: 1px solid white;
+}
+
+.button:hover {
+    backdrop-filter: blur(10px);
+    transform: scale(1.05);
+}

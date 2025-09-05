@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.container > p {
+    color: gray;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.container > h6 {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}

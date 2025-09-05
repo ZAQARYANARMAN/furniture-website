@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0 0 0;
+    position: relative;
+}
+
+.mapContainer {
+    width: 90%;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.contactContainer {
+    background-color: rgb(243, 243, 243);
+    width: 64%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    gap: 20px;
+    opacity: 0;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.leftSide > p {
+    font-size: 0.8700rem;
+    line-height: 20px;
+}
+
+.leftSideInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.leftSideInfoBlock {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftSideInfoBlock > div {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.leftSideInfoBlock > h6 {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.rightSideInpBlock {
+    width: 100%;
+}
+
+.rightSideInpBlock > label {
+    font-size: 0.9rem;
+}
+
+.rightSideInpBlock > input {
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    padding: 0 7px;
+}
+
+.rightSide button {
+    background-color: rgba(0, 0, 0, 0.092);
+    color: black;
+    border-color: black;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .mapContainer {
+        width: 97%;
+    }
+
+    .contactContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mapContainer {
+        height: 600px;
+    }
+
+    .contactContainer {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container {
+        padding: 120px 0 0 0;
+    }
+
+    .contactContainer {
+        grid-template-columns: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contactContainer {
+        padding: 20px 10px;
+    }
+}

@@ -1,0 +1,20 @@
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 1%;
+    gap: 24px;
+}
+
+.mainInfo > h3 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.mainInfo > p {
+    color: white;
+    font-size: 0.8100rem;
+    font-weight: 100;
+    line-height: 23px;
+}

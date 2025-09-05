@@ -1,0 +1,28 @@
+.collectionContainer {
+    background-color: rgb(226, 226, 226);
+    position: relative;
+    overflow: hidden;
+}
+
+.collectionContainer > img {
+    cursor: pointer;
+}
+
+.collectionContainer > h5 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    position: absolute;
+    left: 30px;
+    bottom: 7%;
+    letter-spacing: 1px;
+}
+
+.collectionContainer:hover img {
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 500px) {
+    .collectionContainer > h5 {
+        bottom: 15%;
+    }
+}
